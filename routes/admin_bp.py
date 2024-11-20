@@ -326,7 +326,7 @@ def descargar_excel():
 @admin_bp.route('/existencia_excel', methods=['GET'])
 def existencia_excel():
     try:
-        # Obtener el registro más reciente de la base de datos
+        # Obtener el registro más reciente de la base de datos!
         excel_data = TotalComents.query.first()
 
         if not excel_data:
